@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="This page mainly introduces light novel Eighty-Six. In particular, the page summarizes the 
+        setting and some exposition part of the plot so that the viewers can understand the basic background of the fictional world view.
+        Plus, the page utilizes CSS transform property to showcase some illustrations of the light novel.">
+
+        <title>Final Project | Eighty-Six</title>
+
+        <link href="main.css" rel="stylesheet">
+
+        <style>
+            #illustrations {
+                position: relative;
+                width: 1200px;
+                height: 450px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 30px;
+                margin-bottom: 30px;
+            }
+
+            #illustrations:hover #img-1{
+                transform: translateX(-400px);
+            }
+
+            #illustrations:hover #img-2{
+                transform: translateX(-5px);
+            }
+
+            #illustrations:hover #img-3{
+                transform: translateX(390px);
+            }
+
+            #img-1 {
+                position: absolute;
+                top: 10px;
+                left: 420px;
+                height: 400px;
+                width: 270px;
+                border: 5px inset gray;
+                overflow: hidden;
+                transition: all 1.5s;
+            }
+
+            #img-2 {
+                position: absolute;
+                top: 10px;
+                left: 470px;
+                height: 400px;
+                width: 270px;
+                border: 5px inset gray;
+                overflow: hidden;
+                transition: all 1.5s;
+            }
+
+            #img-3 {
+                position: absolute;
+                top: 10px;
+                left: 520px;
+                height: 400px;
+                width: 270px;
+                border: 5px inset gray;
+                overflow: hidden;
+                transition: all 1.5s;
+            }
+
+            #bottom {
+                height: 726px;
+                width: 1024px;
+                background-image: url("img/eighty-six-wallpaper.jpg");
+                margin-left: auto;
+                margin-right: auto;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div id="all">
+            <div id="menu">
+                <h1>Eighty-Six Key Terminology</h1>
+
+                <h2>Eighty-Six</h2>
+                <p class="intro">
+                    The derogatory name for all of the Colorates (colored races) living inside the Republic of San Magnolia. In the Republic's war
+                    against the neighboring country Giadian Empire, the Eighty-Six are forced to fight on the front line with poorly armored mecha called
+                    Juggernauts.
+                </p>
+
+                <h2>Legion</h2>
+                <p class="intro">
+                    The autonomous drones manufactured by the Giadian Empire that invaded the Republic of San Magnolia. They are a mixture of various types 
+                    of battle drones with different functionalities, which makes the Legion extremely powerful on the battlefield.
+                </p>
+    
+                <div id="icons">
+                    <a href="final_home_page.html">
+                        <img src="img/home.png" alt="Home Icon">
+                        <div class="icon_text">Home</div>
+                    </a>
+                    <a href="darling-in-the-franxx.html">
+                        <img src="img/flower-3.png" alt="Eighty-Six Page">
+                        <div class="icon_text">DIF</div>
+                    </a>
+                    <a href="eighty-six.html">
+                        <img src="img/flower-2.png" alt="Eighty-Six Page">
+                        <div class="icon_text">ES</div>
+                    </a>
+                    <a href="psycho-pass.html">
+                        <img src="img/flower.png" alt="Psycho-Pass Page">
+                        <div class="icon_text">PP</div>
+                    </a>
+                    <div class="clearfloat"></div>
+                </div>
+            </div>
+
+            <div id="entire-right">
+                <div id="header">
+                    <video autoplay muted loop>
+                        <source src="media/eighty-six-pv.mp4">
+                    </video>
+                    <div id="header-overlay">
+                        <h2>Eighty-Six</h2>
+                        <p>War Without Casualties</p>
+                    </div>
+                </div>
+
+                <div id="story-setting">
+                    <h2 id="setting-title">STORY SETTING</h2>
+                    The Republic of San Magnolia has long been under attack from the neighboring Giadian Empire's army of unmanned drones known as the Legion. 
+                    After years of painstaking research, the Republic finally developed autonomous drones of their own, turning the one-sided struggle into 
+                    a war without casualties-or at least, that's what the government claims.
+                </div>
+
+                <div id="story-intro">
+                    <h2 id="intro-title">STORY INTRO</h2>
+                    In truth, there is no such thing as a bloodless war. Beyond the fortified walls protecting the eighty-five Republic territories lies the 
+                    "nonexistent" Eighty-Sixth Sector. The young men and women of this forsaken land are branded the Eighty-Six and, stripped of their humanity, 
+                    pilot the "unmanned" weapons into battle. Shin, the leader of an elite squad of Eighty-Six pilots, goes out of his way to help his squadmates 
+                    survive in the battlefield. While Shin and his friends struggle in hell, Lena, a young Republic officer of the Alba race (the non-colored race as 
+                    well as the ruling race of the Republic), is appointed as the remote commander of Shin's squad. Despite the Republic's discriminatory attitude 
+                    towards the Eighty-Six, Lena believes that the Eighty-Six should be treated equally as Republic citizens. And from here starts the tragic but 
+                    legendary story of these young men and women.
+                </div>
+
+                <h2 id="char-title">Light Novel Illustrations</h2>
+                <div id="illustrations">
+                    <div id="img-1">
+                        <img class="imgs" src="img/eighty-six-il.jpg" alt="Eighty-Six Illustrations">
+                    </div>
+
+                    <div id="img-2">
+                        <img class="imgs" src="img/eighty-six-il2.jpg" alt="Eighty-Six Illustrations 2">
+                    </div>
+
+                    <div id="img-3">
+                        <img class="imgs" src="img/eighty-six-il3.jpg" alt="Eighty-Six Illustrations 3">
+                    </div>
+                </div>
+
+                <h2 id="phi-confli">Reflection of Reality</h2>
+                <div id="wrapper">
+                    <div id="sub-wrapper-1">
+                        <h3 class="conflict-title">Racism and Discriminations</h3>
+                        The issues of racism and discrimination are strongly reflected by the story. For instance, the Eighty-Six of the Republic of San Magnolia 
+                        are deprived of private properties and sent to internment camps soon after the start of the war because of their ancestry from the Giadian Empire 
+                        signaled by their darker skin and hair color. Such plot is based on real historical event during World War II, in which the United States issued Executive 
+                        Order 9066 to confine Japanese Americans in internment camps because of the country's hostility with Japan.
+                    </div>
+
+                    <div id="sub-wrapper-2">
+                        <h3 class="conflict-title">Uprising of Artificial Intelligence</h3>
+                        Also, the story presents a warning for the possible uprising of artificial intelligence and its threat by depicting the Legion - the autonomous drone 
+                        army of the Giadian Empire - as a group of ruthless destructive machines. As the plot progresses, it is revealed that the Giadian Empire has lost control 
+                        of the Legion long time ago and was probably destroyed by the Legion. By collecting the brains of the dead human-beings on the battlefield and analyzing 
+                        their structures, the Legion was able to self-replicate and even self-evolve.
+                    </div>
+
+                    <div class="clearfloat"></div>
+                </div>
+
+                <h2 id="ost-selection">BGM: Zombie - by Bad Wolves</h2>
+                <div id="ost">
+                    <audio controls autoplay>
+                        <source src="media/zombie.mp3">
+                    </audio>
+                </div>
+
+                <div id="bottom"></div>
+            </div>
+        </div>
+    </body>
+</html>

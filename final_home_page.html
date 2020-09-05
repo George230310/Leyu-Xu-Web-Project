@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="This is the home page of Leyu Xu's final project. It provides
+        a brief introduction of the overall website content and the links to three seperate web pages that
+        further describe the Japanese animes and light novels included in this website.">
+
+        <title>Leyu Xu | Final Project Home</title>
+
+        <link href="main.css" rel="stylesheet">
+
+        <style>
+
+            #all {
+                height: 969px;
+            }
+
+            #entire-right {
+                height: 100%;
+            }
+
+            #list, #prompt {
+                color: white;
+                font-size: 1.5em;
+                margin-left: 20px;
+                margin-right: 20px;
+            }
+
+            .block-options {
+                position: relative;
+                float: left;
+                display: block;
+                width: 33.3333%;
+                height: 100%;
+                overflow: hidden;
+            }
+
+            .overlay {
+                padding-top: 250px;
+                background-color: rgba(0,0,0,0.6);
+                text-align: center;
+                color: white;
+                text-shadow: 0px 0px 5px black;
+                position: absolute;
+                top: 0px;
+                bottom: 0px;
+                right: 0px;
+                left: 0px;
+                transition: all 1s;
+                opacity: 0;
+            }
+
+            .overlay > h3 {
+                font-size: 1.5em;
+            }
+
+            .overlay > p {
+                font-size: 1.2em;
+                border-radius: 8px;
+                padding: 5px;
+                width: 70%;
+                border: 4px double white;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .block-options:hover .overlay{
+                opacity: 1;
+            }
+
+            #option-1 {
+                background-color: #0C0910;
+            }
+
+            #option-2 {
+                background-color: #0C0910;
+            }
+
+            #option-3 {
+                background-color: #0C0910;
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <div id="all">
+
+            <div id="menu">
+                <h1>Welcome to Fictional Worlds</h1>
+                <p class="intro">
+                    This is a small gallery of some Japanese animes and light novels of sci-fi or
+                    dystopian themes. I have personally enjoyed every work I included in this gallery. 
+                    After reading my brief introductions of these works, I hope you can become interested
+                    in them and even enjoy them as well.
+                </p>
+
+                <h2>List of Works</h2>
+                <ul id="list">
+                    <li>Psycho-Pass - Anime</li>
+                    <li>Eighty-Six - Light Novel</li>
+                    <li>Darling in the Franxx - Anime</li>
+                </ul>
+
+                <h2>Controls</h2>
+                <p id="prompt">Select a fictional world from the right (or the navigation bar below) to begin your journey. Click the home icon 
+                    to return to this page.
+                </p>
+
+                <div id="icons">
+                    <a href="final_home_page.html">
+                        <img src="img/home.png" alt="Home Icon">
+                        <div class="icon_text">Home</div>
+                    </a>
+                    <a href="darling-in-the-franxx.html">
+                        <img src="img/flower-3.png" alt="Eighty-Six Page">
+                        <div class="icon_text">DIF</div>
+                    </a>
+                    <a href="eighty-six.html">
+                        <img src="img/flower-2.png" alt="Eighty-Six Page">
+                        <div class="icon_text">ES</div>
+                    </a>
+                    <a href="psycho-pass.html">
+                        <img src="img/flower.png" alt="Psycho-Pass Page">
+                        <div class="icon_text">PP</div>
+                    </a>
+                    <div class="clearfloat"></div>
+                </div>
+            </div>
+
+            <div id="entire-right">
+                <a href="psycho-pass.html" id="option-1" class="block-options">
+                    <img class="imgs" src="img/psycho-pass.jpg" alt="Psycho Pass Poster">
+                    <div class="overlay">
+                        <h3>Psycho-Pass</h3>
+                        <p>
+                            <em>
+                                The law doesn't protect people. People protect the law. People have 
+                                always detested evil and sought out a righteous way of living. Their feelings
+                                 - the accumulation of those peoples feelings - are the law.
+                            </em>
+                        </p>
+                        <img src="img/flower.png" alt="Flower Icon">
+                    </div>
+                </a>
+    
+                <a href="eighty-six.html" id="option-2" class="block-options">
+                    <img class="imgs" src="img/eighty-six.jpg" alt="Eighty-six Poster">
+                    <div class="overlay">
+                        <h3>Eighty-Six</h3>
+                        <p>
+                            <em>
+                                No country would ever consider it an act of evil to deny a pig human rights. 
+                                Therefore, if you were to define someone speaking a different tongue, someone of
+                                a different color, someone of a different heritage as a pig in human form, any opperession, 
+                                persecution, or atrocity you inflict upon them would never be regarded as cruel or inhumane.
+                            </em>
+                        </p>
+                        <img src="img/flower-2.png" alt="Flower-2 Icon">
+                    </div>
+                </a>
+    
+                <a href="darling-in-the-franxx.html" id="option-3" class="block-options">
+                    <img class="imgs" src="img/darling-in-the-franxx.jpg" alt="Darling in the Franxx Poster">
+                    <div class="overlay">
+                        <h3>Darling in the Franxx</h3>
+                        <p>
+                            <em>
+                                If you do not belong here, just build a place where you do. If you do not have a partner,
+                                 just find another one. If you cannot find one, just take one by force!
+                            </em>
+                        </p>
+                        <img src="img/flower-3.png" alt="Flower-3 Icon">
+                    </div>
+                </a>
+
+                <div class="clearfloat"></div>
+            </div>
+
+            <div class="clearfloat"></div>
+        </div>
+
+    </body>
+</html>
